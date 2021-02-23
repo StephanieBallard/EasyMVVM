@@ -33,8 +33,8 @@ class RootViewController: UIViewController {
         setupNavigation()
         setupViews()
         
-        let user = User(name: "Alex", age: 36, backgroundColor: .white)
-        viewModel = RootViewModel(user: user)
+//        let user = User(name: "Alex", age: 36, backgroundColor: .white)
+//        viewModel = RootViewModel(user: user)
         
         viewModel.rootViewModelDelegate = self
     }
